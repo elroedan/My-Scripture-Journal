@@ -1,0 +1,65 @@
+﻿@page
+@model My_Scripture_Journal.Pages.Journals.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Journal</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Journal.ID" />
+            <div class="form-group">
+                <label asp-for="Journal.Scripture" class="control-label"></label>
+                <input asp-for="Journal.Scripture" class="form-control" />
+                <span asp-validation-for="Journal.Scripture" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journal.Book" class="control-label"></label>
+                <input asp-for="Journal.Book" class="form-control" />
+                <span asp-validation-for="Journal.Book" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journal.Chapter" class="control-label"></label>
+                <input asp-for="Journal.Chapter" class="form-control" />
+                <span asp-validation-for="Journal.Chapter" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journal.Start" class="control-label"></label>
+                <input asp-for="Journal.Start" class="form-control" />
+                <span asp-validation-for="Journal.Start" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journal.End" class="control-label"></label>
+                <input asp-for="Journal.End" class="form-control" />
+                <span asp-validation-for="Journal.End" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journal.Text" class="control-label"></label>
+                <input asp-for="Journal.Text" class="form-control" />
+                <span asp-validation-for="Journal.Text" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journal.DateAdded" class="control-label"></label>
+                <input asp-for="Journal.DateAdded" class="form-control" />
+                <span asp-validation-for="Journal.DateAdded" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

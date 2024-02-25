@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My Scripture Journal", "My Scripture Journal\My Scripture Journal.csproj", "{D597F4D2-AC89-4A08-A8CF-1AB4AA5A06CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D597F4D2-AC89-4A08-A8CF-1AB4AA5A06CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D597F4D2-AC89-4A08-A8CF-1AB4AA5A06CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D597F4D2-AC89-4A08-A8CF-1AB4AA5A06CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D597F4D2-AC89-4A08-A8CF-1AB4AA5A06CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6E5DDCD-A120-4C89-94DD-4EDE868191C0}
+	EndGlobalSection
+EndGlobal
